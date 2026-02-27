@@ -4,9 +4,10 @@ import styles from "./page.module.css";
 const Card = () => {
   return (
     <div>
-      <h3>Aula Introdução</h3>
-      <h3>Aula Estilização</h3>
-      <h3>Aula Componentes</h3>
+      <h1>React com Next JS</h1>
+      <h2>Aula Introdução</h2>
+      <h3>Leiaute e Estilização</h3>
+      <p>Nesta aula iremos entender o uso de CSS global e local.</p>
     </div>
   );
 }
