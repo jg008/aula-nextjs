@@ -6,7 +6,6 @@ function Atividades01() {
         <div>
             <h1>Atividade 1</h1>
             <p>Primeira Atividade em sala de aula do React</p>
-            <Link href="/exemplos/atv-01">Atividade 1</Link>
         </div>
     )
 }
