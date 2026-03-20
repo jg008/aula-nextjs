@@ -11,11 +11,11 @@ export default function Exemplo03() {
     }
 
     return (
-        <>
-        <div className={styles.adicionarinfo}>
-            <label>{`Contador: ${num}`}</label>            
-            <button onClick={() => handleIncrementa()}>+1</button>
+        
+        <div className={styles.adicionarInfo}>
+            <label className={styles.labelcss}>{`Contador: ${num}`}</label>            
+            <label onClick={() => handleIncrementa()}className={styles.button}>+1</label>
             </div>
-        </>
+        
     );
 }
