@@ -1,6 +1,8 @@
 'use client'
-import styles from "./page.module.css";
+
 import { useState } from "react";
+
+import styles from './page.module.css';
 
 export default function Exemplo03() {  
 
@@ -11,11 +13,12 @@ export default function Exemplo03() {
     }
 
     return (
-        
-        <div className={styles.adicionarInfo}>
-            <label className={styles.labelcss}>{`Contador: ${num}`}</label>            
-            <label onClick={() => handleIncrementa()}className={styles.button}>+1</label>
-            </div>
-        
+        <div className={styles.container}>
+            <label className={styles.texto}>{`Contador: ${num}`}</label>            
+            <label 
+                onClick={() => handleIncrementa()}
+                className={styles.botao}
+            >+1</label>
+        </div>
     );
 }
