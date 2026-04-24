@@ -21,7 +21,6 @@ function Atividade04() {
     setInputValue({ id: '', quantidade: '', produto: '' });
   };
 
-  // 🔥 NOVA FUNÇÃO (remover item)
   const removerItem = (id) => {
     const novaLista = dadosCadastrados.filter(item => item.id !== id);
     setDadosCadastrados(novaLista);
@@ -57,7 +56,7 @@ function Atividade04() {
                 {item.quantidade}x {item.produto}
               </span>
 
-              {/* 🗑️ BOTÃO DE EXCLUIR */}
+              {}
               <button
                 className={styles.deleteBtn}
                 onClick={() => removerItem(item.id)}
