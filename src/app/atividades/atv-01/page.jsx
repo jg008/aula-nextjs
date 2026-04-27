@@ -38,4 +38,4 @@ function Atividades01() {
     )
 }
 
-export default Atividades02;
+export default Atividades01;

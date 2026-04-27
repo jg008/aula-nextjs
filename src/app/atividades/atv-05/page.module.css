@@ -1,52 +1,62 @@
-.container {
-  width: 500px;
-  margin: 40px auto;
-  font-family: Arial, sans-serif;
-}
-
-.titulo {
-  margin-bottom: 15px;
-}
-
-.input {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #999;
-  margin-bottom: 10px;
-}
-
-.btn-add {
-  background-color: #28a745; 
-  border: none;
-  padding: 10px;
-  cursor: pointer;
-}
-
-.lista {
-  margin-top: 15px;
-}
-
-.item {
+.linha {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 10px 0;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ddd;
 }
 
-.acoes button {
-  margin-left: 5px;
-  padding: 5px 10px;
+.conteudo {
+  flex: 1;
+}
+
+.acoes {
+  display: flex;
+  gap: 8px; 
+}  
+
+.editarBtn {
+  background-color: #3b82f6; 
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
   cursor: pointer;
+  transition: 0.2s;
 }
 
-.btn-edit {
-  background-color: #007bff; 
-  color: white;
-  border: none;
+.editarBtn:hover {
+  background-color: #2563eb;
+  transform: scale(1.05);
 }
 
-.btn-delete {
-  background-color: #dc3545; 
+.deleteBtn {
+  background-color: #ef4444; 
   color: white;
   border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.deleteBtn:hover {
+  background-color: #dc2626;
+  transform: scale(1.05);
+}
+
+.addBtn {
+  background-color: #10b981; 
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.addBtn:hover {
+  background-color: #059669;
+  transform: scale(1.03);
 }
